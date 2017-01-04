@@ -24,7 +24,8 @@
     "reactotron": "^0.9.0",
     "redux": "^3.6.0",
     "redux-immutablejs": "0.0.8",
-    "redux-thunk": "^2.1.0"
+    "redux-thunk": "^2.1.0",
+    "cruze": "git+ssh://git@github.com:cruze-io/mixins.git"
   },
   "devDependencies": {
     "babel-jest": "17.0.2",

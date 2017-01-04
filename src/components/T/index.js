@@ -6,7 +6,7 @@
 import React, { PropTypes } from 'react';
 import { Text } from 'react-native';
 import styles from './styles';
-import { FONT_COLOR, FONT_SIZE, FONT_WEIGHT } from '@theme/fonts';
+import { FONT_COLOR, FONT_SIZE, FONT_WEIGHT } from 'mixins/theme/fonts';
 
 type Props = {
   color: string,
