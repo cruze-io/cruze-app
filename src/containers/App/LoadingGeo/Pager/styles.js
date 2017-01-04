@@ -1,0 +1,71 @@
+const styles = {
+  container: {
+    flex: 1,
+    position: 'relative',
+    top: 30,
+    left: 30,
+  },
+  dotContaine: {
+    width: 10,
+    height: 10,
+    borderRadius: 15,
+    backgroundColor: 'rgba(0,0,0,0)',
+    borderWidth: 1,
+    borderColor: '#FFFFFF',
+    marginBottom: 35,
+  },
+  activeDotContainer: {
+    position: 'absolute',
+    top: 5,
+    left: 5,
+    width: 900,
+    height: 900,
+  },
+  outerRing: {
+    position: 'absolute',
+    top: -450,
+    left: -450,
+    width: 900,
+    height: 900,
+    borderRadius: 900,
+    backgroundColor: 'rgba(250,250,250,0.04)',
+  },
+  outerMidRing: {
+    position: 'absolute',
+    top: -300,
+    left: -300,
+    width: 600,
+    height: 600,
+    borderRadius: 700,
+    backgroundColor: 'rgba(250,250,250,0.04)',
+  },
+  midRing: {
+    position: 'absolute',
+    top: -150,
+    left: -150,
+    width: 300,
+    height: 300,
+    borderRadius: 300,
+    backgroundColor: 'rgba(250,250,250,0.04)',
+  },
+  innerRing: {
+    position: 'absolute',
+    top: -50,
+    left: -50,
+    width: 100,
+    height: 100,
+    borderRadius: 100,
+    backgroundColor: 'rgba(250,250,250,0.04)',
+  },
+  filledDot: {
+    position: 'absolute',
+    top: -10,
+    left: -10,
+    width: 20,
+    height: 20,
+    borderRadius: 20,
+    backgroundColor: '#FFFFFF',
+  }
+}
+
+export default styles
